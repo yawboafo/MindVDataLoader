@@ -1,5 +1,5 @@
 # MindVDataLoader
-A simple networking layer for downloading any form of Data asynchronously using NSOperations 
+A simple networking layer for downloading any form of Data asynchronously using NSOperations.
 
 ## Installations
 Drag and drop or add the **MindVDataLoader** folder into your application or add the **MindVDataLoader.framework**  as a framework.
@@ -14,9 +14,18 @@ Drag and drop or add the **MindVDataLoader** folder into your application or add
 ## Use Library
 ```swift
  let dataLoader = MOperationManager()
+
+// with a urlString
  dataLoader.loadData(urlString: "www.imageUrl.com") { data in
           
-//Data here you can use       
+         //Data here you can use       
+    }
+
+ //with urlRequest
+ var urlRequest = URLRequest(url: "yourUrl")
+ dataLoader.loadData(request: urlRequest) { data in
+          
+         //Data here you can use       
     }
 ```
 
@@ -45,4 +54,4 @@ extension UIImageView {
 You can then use your extension like this `yourimageview.setImage(url: "yourimageurl")`
 
 
-### The test project can be found here  [Example project](https://github.com/yawboafo/MindValleyMobileTest.git)
+### A test project can be found here  [Example project](https://github.com/yawboafo/MindValleyMobileTest.git)
