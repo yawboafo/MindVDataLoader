@@ -1,5 +1,5 @@
 # MindVDataLoader
-A simple networking layer for downloading any form of Data asynchronously.
+A simple networking layer for downloading any form of Data asynchronously using NSOperations 
 
 ## Installations
 Drag and drop or add the **MindVDataLoader** folder into your application or add the **MindVDataLoader.framework**  as a framework.
