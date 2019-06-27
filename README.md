@@ -22,7 +22,7 @@ Drag and drop or add the **MindVDataLoader** folder into your application or add
 
 ### Data download Operation Response Data structure 
 
-`loadData`  returns a  `MOperationResponse(error as AnyObject,data as Data,response as AnyObject)`   
+`loadData`  returns a  `MOperationResponse(error as AnyObject,data as Data,response as AnyObject)`  
 
 
 ## Use Library to download Image and set to UIImageView using extensions
@@ -42,7 +42,7 @@ extension UIImageView {
 }
 ```
 
-### You can then use your extension like this `yourimageview.setImage(url: "yourimageurl")`
+You can then use your extension like this `yourimageview.setImage(url: "yourimageurl")`
 
 
-# A test project can be found here  [Example project](https://github.com/yawboafo/MindValleyMobileTest.git)
+### A test project can be found here  [Example project](https://github.com/yawboafo/MindValleyMobileTest.git)
