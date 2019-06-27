@@ -45,4 +45,4 @@ extension UIImageView {
 You can then use your extension like this `yourimageview.setImage(url: "yourimageurl")`
 
 
-### A test project can be found here  [Example project](https://github.com/yawboafo/MindValleyMobileTest.git)
+### The test project can be found here  [Example project](https://github.com/yawboafo/MindValleyMobileTest.git)
